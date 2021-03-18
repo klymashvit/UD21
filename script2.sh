@@ -8,8 +8,8 @@ if=$(netstat -i) #network
 dinfo=$(df -h) #memory
 
 
-echo -e "Information about my system\n\nHardware info\n\n$sysinfo\n\nProcess info\n\n$prinfo\n\n\n" > Info.txt
-echo -e "Information about my network\n\nInterfaces info\n\n$net\n\n$if\n\nFireWall info\n\n$fw\n\n\n" >>Info.txt
-echo -e "Information about my hard memory\n\n$dinfo\n\n\n" >> Info.txt
+echo -e "Information about my system\n\nHardware info\n\n$sysinfo\n\nProcess info\n\n$prinfo\n\n\n" > Info(script2).txt
+echo -e "Information about my network\n\nInterfaces info\n\n$net\n\n$if\n\nFireWall info\n\n$fw\n\n\n" >>Info(script2).txt
+echo -e "Information about my hard memory\n\n$dinfo\n\n\n" >> Info(script2).txt
 
 
